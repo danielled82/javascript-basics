@@ -47,15 +47,15 @@ const isSquare = a => {
 };
 
 const startsWith = (char, string) => {
-  return str.charAt('char', string);
+  return string.startsWith(char)
 };
 
 const containsVowels = string => {
-  return str.containsVowels;
+  return Boolean(string.match(/[aeiou]/gi));
 };
 
 const isLowerCase = string => {
-  return str.toLowerCase();
+  return string === string.toLowerCase()
 };
 
 module.exports = {
