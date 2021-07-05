@@ -28,7 +28,7 @@ const numbersToStrings = numbers => {
 };
 
 const uppercaseWordsInArray = strings => {
-  return strings.map(word => word.toUpperCase())
+  return strings.map(word => word.toUpperCase());
 };
 
 const reverseWordsInArray = strings => {
@@ -37,7 +37,7 @@ const reverseWordsInArray = strings => {
       .split("")
       .reverse()
       .join("");
-  })
+  });
 };
 
 const onlyEven = numbers => {
